@@ -92,6 +92,22 @@ body {
   img {
     cursor: pointer;
   }
+
+  .image-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+
+    li {
+      margin-left: 10px;
+      float: left;
+    }
+
+    .small-png {
+      display: none;
+    }
+  }
 }
 
 .footer {
@@ -133,6 +149,6 @@ body {
   }
 
   .partner {
-    float: left;
+    float: right;
   }
 }

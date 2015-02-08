@@ -13,13 +13,27 @@ $ ->
 
   group.play().loop()
 
-  $('#apito').click () ->
+  $('.apito').click () ->
+    $(this).find('.small-png').toggle()
+    $(this).find('.small-gif').toggle()
     apito.toggleMute()
-  $('#cuica').click () ->
+
+  $('.cuica').click () ->
+    $(this).find('.small-png').toggle()
+    $(this).find('.small-gif').toggle()
     cuica.toggleMute()
-  $('#chacoalho').click () ->
+
+  $('.chocalho').click () ->
     ganza.toggleMute()
-  $('#pandeiro').click () ->
+    $(this).find('.small-png').toggle()
+    $(this).find('.small-gif').toggle()
+
+
+  $('.pandeiro').click () ->
     pandeiro.toggleMute()
-  $('#tamborim').click () ->
+    $(this).find('.small-png').toggle()
+    $(this).find('.small-gif').toggle()
+
+  $('.tamborim').click () ->
     tamborim.toggleMute()
+    $(this).find('.small-png, .small-gif').toggle()
