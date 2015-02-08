@@ -108,11 +108,13 @@ body {
       display: none;
     }
   }
+
 }
 
 .footer {
   margin: 0 auto;
   margin-top: 20px;
+  overflow: hidden;
 
   .supporter {
     color: white;
@@ -150,5 +152,49 @@ body {
 
   .partner {
     float: right;
+  }
+}
+
+// ----- Details
+
+.content-details {
+  overflow: hidden;
+
+  .info {
+    height: 150px;
+    background: url(../images/pulse-coracao.png) no-repeat center center;
+
+    p {
+      font-size: 24px;
+      text-align: center;
+      letter-spacing: 4px;
+      padding-right: 35px;
+    }
+
+    .info-text {
+      padding-top: 43px;
+    }
+  }
+
+  .info-back {
+    width: 275px;
+    margin: 0 auto;
+    margin-top: 10px;
+    overflow: hidden;
+
+    img {
+      margin-top: 20px;
+      float: left;
+    }
+
+    p {
+      width: 125px;
+      margin-bottom: 0;
+      margin-left: 10px;
+      float: left;
+      font-size: 17px;
+      letter-spacing: 3px;
+      color: rgb(253, 249, 0);
+    }
   }
 }

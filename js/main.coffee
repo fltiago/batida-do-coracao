@@ -38,3 +38,5 @@ $ ->
   $('.tamborim').click () ->
     tamborim.toggleMute()
     $(this).find('.small-png, .small-gif').toggle()
+
+
