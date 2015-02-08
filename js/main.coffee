@@ -9,8 +9,9 @@ $ ->
   ganza = new buzz.sound("sounds/ganza", config)
   pandeiro = new buzz.sound("sounds/pandeiro", config)
   tamborim = new buzz.sound("sounds/tamborim", config)
+  group = new buzz.group(apito, coracao, cuica, ganza, pandeiro, tamborim)
 
-  buzz.all().play().loop()
+  group.play().loop()
 
   $('#apito').click () ->
     apito.toggleMute()
