@@ -88,6 +88,14 @@ body {
 
 .content {
   background: url(../images/sombra-background.png) no-repeat bottom center;
+
+  img {
+    cursor: pointer;
+  }
+  .small-gif {
+    width: 150px;
+    height: 150px;
+  }
 }
 
 .footer {
