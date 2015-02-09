@@ -11,7 +11,7 @@ $ ->
   tamborim = new buzz.sound("sounds/tamborim", config)
   group = new buzz.group(apito, coracao, cuica, ganza, pandeiro, tamborim)
 
-  group.bind 'canplaythrough', () ->
+  group.bind 'loadedmetadata', (e) ->
     group.play().loop()
 
   $('.apito').click () ->
@@ -28,7 +28,6 @@ $ ->
     ganza.toggleMute()
     $(this).find('.small-png').toggle()
     $(this).find('.small-gif').toggle()
-
 
   $('.pandeiro').click () ->
     pandeiro.toggleMute()
