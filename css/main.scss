@@ -65,7 +65,7 @@ body {
   .header {
     width: 154px;
     margin: 0 auto;
-    padding-bottom: 60px;
+    padding-bottom: 20px;
     padding-top: 20px;
     font-family: 'Dosis';
     text-align: center;
@@ -87,7 +87,9 @@ body {
 }
 
 .content {
+  padding-top: 40px;
   background: url(../images/sombra-background.png) no-repeat bottom center;
+  margin-bottom: 10px;
 
   img {
     cursor: pointer;
@@ -113,7 +115,7 @@ body {
 
 .footer {
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 15px;
   overflow: hidden;
 
   .supporter {
